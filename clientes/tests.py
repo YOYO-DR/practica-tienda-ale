@@ -1,4 +1,4 @@
-from tienda.wsgi import *
+from config.wsgi import *
 from clientes.models import *
 
 # user=Cliente()

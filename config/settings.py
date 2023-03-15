@@ -43,7 +43,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'tienda.urls'
+ROOT_URLCONF = 'config.urls'
 # Templates Directory
 TEMPLATE_DIR = os.path.join(BASE_DIR,"templates")
 
@@ -63,7 +63,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'tienda.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 
 # Database
